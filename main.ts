@@ -3,7 +3,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     mySprite.y += -10
 })
 let mySprite: Sprite = null
-scene.setBackgroundColor(0)
+scene.setBackgroundColor(2)
 let 狗 = sprites.create(img`
     . . 4 4 4 . . . . 4 4 4 . . . . 
     . 4 5 5 5 e . . e 5 5 5 4 . . . 
